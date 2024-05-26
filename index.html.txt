@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperium Szkoleniowe - Kopia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Imperium Szkoleniowe</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Witamy w Imperium Szkoleniowym</h1>
+            <p>Najlepsze szkolenia dla Twojego rozwoju</p>
+            <a href="#services" class="cta">Zobacz więcej</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Imperium Szkoleniowe to lider w branży szkoleń i rozwoju osobistego.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nasze Usługi</h2>
+        <div class="service">
+            <h3>Szkolenia</h3>
+            <p>Profesjonalne szkolenia z różnych dziedzin.</p>
+        </div>
+        <div class="service">
+            <h3>Coaching</h3>
+            <p>Indywidualne sesje coachingowe z ekspertami.</p>
+        </div>
+        <div class="service">
+            <h3>Konsultacje</h3>
+            <p>Specjalistyczne konsultacje dla firm i osób prywatnych.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Imperium Szkoleniowe. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
